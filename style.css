@@ -1,0 +1,128 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body	{
+	font:16px/28px arial, sans-serif;
+	background-color: #eaeaea;
+	background-image: url(asset/body.png);
+	color: #333333;
+  width: 100%;
+  display: flex;
+}
+
+.full {
+  display: flex;
+  flex-direction: column;
+	margin: 3em auto auto auto;
+
+}
+header h1 {
+	font-weight: bold;
+	font-size: 1.7rem;
+	padding: 0.5em;
+
+}
+header nav a {
+	font-size: 0.9rem;
+	display: inline-block;
+	padding: 0 0.6em;
+  text-decoration: none;
+	color: salmon;
+  transition: background-color 0.3s ease-in;
+}
+header nav a:hover {
+	background-color: salmon;
+	color: white;
+}
+img{
+  width: 100%;
+  border-radius: 0.5em;
+}
+main{
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+#content {
+	padding: 1em;
+}
+h2	{
+	font-size: 1.1rem;
+	font-weight: bold;
+	
+}
+.penulis { font-size: 0.85rem; }
+.penulis a {
+	text-decoration: none;
+	color: salmon;
+	font-weight: bold;
+}
+article {
+	font-size: 1rem;
+	margin-bottom: 0.7em;
+}
+aside {
+  width: 14em;
+  padding: 1em;
+  margin: 1.2em auto;
+  overflow: hidden;
+  font-style: italic;
+  background-color: lightgray;
+}
+aside ul{
+  list-style-position: inside;
+}
+footer	{
+	background-color: salmon;
+  font-weight: 600;
+}
+.copyright {
+	text-align: center;
+	color: white;
+	padding: 10px;
+	font-size: 13px;
+}
+
+@media only screen and (min-width: 768px) {
+  aside{
+    position: sticky;
+    top: 3em;
+    border-radius: 0.4em;
+    font-size: 0.9rem;
+    padding: 0.8em;
+    margin: 0;
+    width: 14.5em;
+  }
+  header{
+    border-radius: 0.9em 0.9em 0 0;
+  }
+  #content{
+    border-radius: 0 0 0.9em 0.9em;
+    min-width: 490px;
+  }
+  header, #content{
+    background: rgb(236, 236, 236);
+    width: 65%;
+    margin: 0 5%;
+    padding: 1em;
+  }
+  footer{
+    margin-top: 3em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  aside{
+    position: sticky;
+    top: 3em;
+    border-radius: 0.5em;
+    font-size: 1rem;
+    width: 16em;
+    padding: 1em;
+    font-style: italic;
+    background-color: lightgray;
+  }
+}
