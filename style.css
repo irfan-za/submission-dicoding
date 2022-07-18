@@ -23,7 +23,6 @@ header h1 {
 	font-weight: bold;
 	font-size: 1.7rem;
 	padding: 0.5em;
-
 }
 header nav a {
 	font-size: 0.9rem;
@@ -78,6 +77,8 @@ aside ul{
 footer	{
 	background-color: salmon;
   font-weight: 600;
+  display: flex;
+  justify-content: center;
 }
 .copyright {
 	text-align: center;
