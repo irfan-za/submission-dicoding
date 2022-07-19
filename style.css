@@ -22,6 +22,20 @@ header h1 {
 	font-size: 1.7rem;
 	padding: 0.5em;
 }
+#categoryContainer{
+  display: inline-block;
+  position: relative;
+}
+.subCategory{
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  background: #fff;
+}
+.show{
+  display: flex;
+}
 header nav a {
 	font-size: 0.9rem;
 	display: inline-block;
@@ -83,9 +97,7 @@ footer	{
 
 @media only screen and (min-width: 768px) {
   .full{
-
     margin: 3em auto auto auto;
-
   }
 	header{
     border-radius: 0.9em 0.9em 0 0;
