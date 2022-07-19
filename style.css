@@ -36,7 +36,8 @@ header h1 {
 .show{
   display: flex;
 }
-header nav a {
+.menu {
+  cursor: pointer;
 	font-size: 0.9rem;
 	display: inline-block;
 	padding: 0 0.6em;
@@ -44,7 +45,7 @@ header nav a {
 	color: salmon;
   transition: background-color 0.3s ease-in;
 }
-header nav a:hover {
+.menu:hover {
 	background-color: salmon;
 	color: white;
 }
