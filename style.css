@@ -82,7 +82,7 @@ footer	{
 }
 
 @media only screen and (min-width: 768px) {
-  full{
+  .full{
 
     margin: 3em auto auto auto;
 
