@@ -77,16 +77,24 @@ article {
 	margin-bottom: 0.7em;
 }
 aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 14em;
   border-radius: 0.4em;
   padding: 1em;
   margin: 0.5em auto 4em auto;
   overflow: hidden;
-  font-style: italic;
   background-color: lightgray;
 }
-aside ul{
-  list-style-position: inside;
+aside p{
+  text-align: center;
+}
+#profile{
+  width: 5em;
+  height: 5em;
+  border-radius: 100%;
+  text-align: center;
 }
 footer	{
 	background-color: salmon;
